@@ -13,7 +13,7 @@ import org.apache.spark.sql.{Column, DataFrame, Dataset, Encoders}
 /**
  * This model refers to the <b>HGLDA</b> model provided <a href="https://www.nature.com/articles/srep13186">here</a>.
  *
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 class PValueModel() extends GraphframeAbstractModel() {
   private val logger: Logger = LoggerFactory.getLogger(classOf[PValueModel])
