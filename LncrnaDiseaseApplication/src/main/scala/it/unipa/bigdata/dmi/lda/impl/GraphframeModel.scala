@@ -7,7 +7,7 @@ import org.apache.spark.sql.Dataset
 /**
  * This is a generic model. It can be used to implement new models that relies on Graphs, using GraphFrame, as the others.
  *
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 class GraphframeModel() extends GraphframeAbstractModel {
   /**
