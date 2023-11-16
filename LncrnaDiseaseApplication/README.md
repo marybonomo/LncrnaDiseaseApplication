@@ -30,16 +30,21 @@ java -jar ./target/lda.jar <arguments>
 ```
 There are several arguments that can be used. For more information use the argument `-h`. Using the `-h` argument will print the helper, ignoring the other arguments. If no arguments are specified, the helper will be shown automatically.
 
+## Use different Input
+
+
+
 #### Example of execution with results save in specified output
 An example of execution is:
-
+```
+java -jar ./target/lda.jar -f auc -m pvalue -o C:\\<user>\Documents\result_folder
+```
 run as java application > Program arguments:
 
 ```
 java -jar lda.jar [-h] [-m <centrality, pvalue, catania>] [-pp<arg>] [-v <hmddv2, hmddv3>]
 ```
-```
-java -jar ./target/lda.jar -f auc -m pvalue -o C:\\<user>\Documents\result_folder
-```
 
 will execute the software with model pValue and will save the results of predictions in the given folder. The output consists of a csv with header sorted alphabetically by couple lncRNA-disease.
+
+To execute methods with collaborative filtering: Run >java/it/unipa/bigdata/dmi/collaborativeFiltering
