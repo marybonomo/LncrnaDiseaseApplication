@@ -9,7 +9,7 @@ import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
 /**
  * Utility class used to extract data from datasets.
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 class DatasetReader extends DatasetInterface {
   private val sparkSession: SparkSession = SparkFactory.getSparkSession
