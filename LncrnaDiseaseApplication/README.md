@@ -9,11 +9,6 @@ The Maven build will create the jar file into `target/` folder.
 ```
 mvn clean install
 ```
-run as java application > Program arguments:
-
-```
-java -jar lda.jar [-h] [-m <centrality, pvalue, catania>] [-pp<arg>] [-v <hmddv2, hmddv3>]
-```
 
 ### Docker Build
 The Docker build will create the jar file into `target/` folder.
@@ -38,6 +33,11 @@ There are several arguments that can be used. For more information use the argum
 #### Example of execution with results save in specified output
 An example of execution is:
 
+run as java application > Program arguments:
+
+```
+java -jar lda.jar [-h] [-m <centrality, pvalue, catania>] [-pp<arg>] [-v <hmddv2, hmddv3>]
+```
 ```
 java -jar ./target/lda.jar -f auc -m pvalue -o C:\\<user>\Documents\result_folder
 ```
