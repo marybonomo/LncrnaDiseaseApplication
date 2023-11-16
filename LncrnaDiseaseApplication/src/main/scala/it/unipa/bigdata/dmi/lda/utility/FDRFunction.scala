@@ -10,7 +10,7 @@ import org.apache.spark.sql.{Dataset, Encoders}
  * Utility function used to compute FDR correction.
  *
  * @param alpha Default value is 0.05.
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 case class FDRFunction(alpha: Double = 0.05) {
   val sparkSession = SparkFactory.getSparkSession
