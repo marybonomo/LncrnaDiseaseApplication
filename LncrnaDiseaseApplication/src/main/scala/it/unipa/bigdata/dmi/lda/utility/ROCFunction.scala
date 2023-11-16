@@ -11,7 +11,7 @@ import org.apache.spark.sql.Dataset
 /**
  * Utility function used to compute ROC analysis.
  *
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 case class ROCFunction() {
   private val logger: Logger = LoggerFactory.getLogger(classOf[ROCFunction])
