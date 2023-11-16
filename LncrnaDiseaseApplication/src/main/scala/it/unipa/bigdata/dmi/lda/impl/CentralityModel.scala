@@ -13,7 +13,7 @@ import org.apache.spark.sql.functions._
 /**
  * The centrality model is the implementation of our model. It is based on a tripartite graph that uses miRNA as link between lncRNA and diseases.
  *
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 class CentralityModel() extends GraphframeAbstractModel() {
   private val logger: Logger = LoggerFactory.getLogger(classOf[CentralityModel])
