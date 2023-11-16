@@ -14,7 +14,7 @@ import org.graphframes.GraphFrame
 /**
  * This is a superclass for the models that rely on graphs to be computed. It uses {@link org.graphframes.GraphFrame} to implements graph in Spark.
  *
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 abstract class GraphframeAbstractModel() extends ModelInterface {
   private val logger: Logger = LoggerFactory.getLogger(classOf[GraphframeAbstractModel])
