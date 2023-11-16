@@ -20,7 +20,7 @@ import scala.collection.mutable.WrappedArray
  * This model refers to the <b>ncPred</b> model implemented <a href="http://alpha.dmi.unict.it/ncPred/">here</a>. This class doesn't implement the prediction model, but permits to generate
  * the matrices of miRNA-lncRNA and miRNA-disease associations that are given as input into the implemented model.
  *
- * @author Armando La Placa
+ * @author Mariella Bonomo
  */
 class CataniaModel() extends GraphframeAbstractModel() {
   private val logger: Logger = LoggerFactory.getLogger(classOf[CataniaModel])
