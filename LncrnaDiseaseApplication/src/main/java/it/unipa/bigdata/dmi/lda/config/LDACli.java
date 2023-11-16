@@ -106,22 +106,22 @@ public class LDACli {
      * @return Get the path of the {@code mirna-disease.csv} dataset file or the default one located at {@code resources/datasets/<version>/mirna-disease.csv}
      */
     public static String getMdPath() {
-        return variables.getMdPath() == null ? String.format("resources/datasets/%s/mirna-disease.csv", getVersion()) : variables.getMdPath();
+        return variables.getMdPath() == null ? String.format("resources/input/hmdd_disease.csv") : variables.getMdPath();
     }
 
     /**
      * @return Get the path of the {@code mirna-lncrna.csv} dataset file or the default one located at {@code resources/datasets/mirna-lncrna.csv}
      */
     public static String getMlPath() {
-        return variables.getMlPath() == null ? "resources/datasets/mirna-lncrna.csv" : variables.getMlPath();
+        return variables.getMlPath() == null ? "resources/input/mirna-lncrna.csv" : variables.getMlPath();
     }
 
     /**
      *
-     * @return Get the path of the {@code lncrna-disease.csv} dataset file or the default one located at {@code resources/datasets/lncrna-disease.csv}
+     * @return Get the path of the {@code lncrna-disease.csv} dataset file or the default one located at {@code resources/datasets/lncrna-disease.csv} or different gold standard GS2
      */
     public static String getLdPath() {
-        return variables.getLdPath() == null ? "resources/datasets/lncrna-disease.csv" : variables.getLdPath();
+        return variables.getLdPath() == null ? "resources/input/GS1.csv" : variables.getLdPath();
     }
 
     public static String getPredictionPath() {
