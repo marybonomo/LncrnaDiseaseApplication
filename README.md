@@ -10,7 +10,8 @@ Sotfware Big Data Tool to predict lncRNA-disease associations(LDA).
 
 1. **Clone the Repository:**
    git clone [https://github.com/youruser/yourrepository.git](https://github.com/marybonomo/LncrnaDiseaseApplication)
-   cd LncrnaDiseaseApplication
+
+   - cd LncrnaDiseaseApplication
 
 ## Build the application
 mvn clean package
