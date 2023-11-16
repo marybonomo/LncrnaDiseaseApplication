@@ -30,9 +30,6 @@ java -jar ./target/lda.jar <arguments>
 ```
 There are several arguments that can be used. For more information use the argument `-h`. Using the `-h` argument will print the helper, ignoring the other arguments. If no arguments are specified, the helper will be shown automatically.
 
-## Use different Input
-
-
 
 #### Example of execution with results save in specified output
 An example of execution is:
