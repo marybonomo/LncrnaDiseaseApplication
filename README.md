@@ -1,5 +1,5 @@
 # LncrnaDiseaseApplication
-Sotfware Big Data Tool to predict lncRNA-disease associations(LDA).
+Sotfware Big Data Tool to predict lncRNA-disease associations(LDA) using lncRNA-miRNA associations and miRNA-disease associations.
 
 ## Requirements
 - Java (recommended version 16.0)
