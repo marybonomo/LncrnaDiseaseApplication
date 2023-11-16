@@ -10,12 +10,8 @@ import org.apache.spark.sql.Dataset
  * @author Mariella Bonomo
  */
 class GraphframeModel() extends GraphframeAbstractModel {
-  /**
-   * To be implemented!
-   */
+  
   override def compute(): Dataset[Prediction] = throw new NotImplementedException()
-  /**
-   * To be implemented!
-   */
+  
   override def predict(): Dataset[PredictionFDR] = throw new NotImplementedException()
 }
